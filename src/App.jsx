@@ -8,7 +8,7 @@ function App() {
        <h1 className={"text-7xl"}>Rodney Brown</h1>
 
        <p className={"text-2xl text-green-500 mt-12 text-center"}>
-          Hello my name is Rodney Brown, I'm a computer science student at gvsu<br/>
+          Hi my name is Rodney Brown, I'm a computer science student at gvsu<br/>
            I'm currently looking to use my skills in more practical ways to learn<br/>
            and expand my experience by building real software.
        </p>
