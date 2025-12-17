@@ -1,6 +1,4 @@
 import xer from '/716.png'
-import './App.css'
-
 function App() {
 
   return (
