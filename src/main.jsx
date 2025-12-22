@@ -5,6 +5,7 @@ import './index.css'
 import App from './App.jsx'
 import AboutMe from "./AboutMe.jsx";
 import Projects from "./Projects.jsx"
+import Contact from "./Contact.jsx"
 //Firebase
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -25,12 +26,13 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 // Initialize Cloud Firestore and get a reference to the service
-const db = getFirestore(app);
+export const db = getFirestore(app);
 
 const router = createBrowserRouter([
     {path: '/', element: <App />},
     {path: '/about', element: <AboutMe />},
     {path: '/projects', element: <Projects />},
+    {path: '/contact', element: <Contact />},
 ])
 
 createRoot(document.getElementById('root')).render(
@@ -38,4 +40,3 @@ createRoot(document.getElementById('root')).render(
       <RouterProvider router = {router}/>
   </StrictMode>,
 )
-

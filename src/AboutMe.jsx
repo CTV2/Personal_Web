@@ -18,10 +18,11 @@ function AboutMe(){
                     <DropdownMenuItem onClick={() => navigate("/")}>Home</DropdownMenuItem>
                     <DropdownMenuItem onClick={() => navigate("/about")}>About Me</DropdownMenuItem>
                     <DropdownMenuItem onClick={() => navigate("/projects")}>Projects</DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => navigate("/contact")}>Contact</DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
 
-        <h1>About Me</h1>
+            <h1>About Me</h1>
 
 
         </div>
