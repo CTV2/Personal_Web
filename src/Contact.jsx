@@ -40,7 +40,7 @@ function Contact() {
                     <DropdownMenuItem onClick={() => navigate("/")}>Home</DropdownMenuItem>
                     <DropdownMenuItem onClick={() => navigate("/about")}>About Me</DropdownMenuItem>
                     <DropdownMenuItem onClick={() => navigate("/projects")}>Projects</DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => navigate("/contact")}>Home</DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => navigate("/contact")}>Contact</DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
 
