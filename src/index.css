@@ -1,6 +1,16 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: "font";
+  src: url("./assets/fonts/sepcial.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@theme {
+  --font-sans: "font", sans-serif;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

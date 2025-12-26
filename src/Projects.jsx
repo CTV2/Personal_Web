@@ -1,5 +1,5 @@
-import go from "/go.jpg";
-import plane from "/fly.jpg";
+import go from "/go.png";
+import plane from "/fly.png";
 
 import {
     DropdownMenu,
@@ -13,7 +13,7 @@ import {useNavigate} from "react-router-dom";
 function Projects(){
     const navigate = useNavigate();
     return (
-        <div className="min-h-screen bg-black text-white font-bold flex flex-col px-6">
+        <div className="min-h-screen bg-black text-green-500 font-bold flex flex-col px-6">
             <DropdownMenu>
                 <DropdownMenuTrigger className={"absolute top-0 right-2 size-16 right"}>Menu</DropdownMenuTrigger>
                 <DropdownMenuContent>
@@ -26,13 +26,13 @@ function Projects(){
                 </DropdownMenuContent>
             </DropdownMenu>
 
-            <h1 className={"flex flex-col justify-center items-center mt-15 text-5xl underline"}>Projects
+            <h1 className={"flex flex-col justify-center items-center mt-15 text-5xl text-green-500"}>Projects
 
             </h1>
-            <h1 className={"flex flex-row justify-left items-center mt-15 ml-15 text-3xl"}>
+            <h1 className={"border-green-500 border-4 rounded flex flex-row justify-left items-center mt-15 ml-15 text-3xl text-white"}>
                 <img className={"h-80 w-100 mr-5"} src={go} alt="Go Board"/> Created a program that mimics the game of go and used recursion to keep score and keep track of board state to undo moves and asses win conditions.
             </h1>
-            <h1 className={"flex flex-row justify-left items-center mt-15 ml-15 text-3xl"}>
+            <h1 className={"border-green-500 border-4 rounded flex flex-row justify-left items-center mt-15 ml-15 text-3xl text-white"}>
                 <img className={"h-80 w-100 mr-5"} src={plane} alt="Go Board"/> Created a program that keeps track of planes gas and required gas to reach a destinations, it also kept track of when planes would need to refuel and receive maintenance
             </h1>
         </div>

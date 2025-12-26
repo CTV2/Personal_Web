@@ -31,7 +31,7 @@ async function submit() {
 function Contact() {
     const navigate = useNavigate();
     return (
-        <div className="min-h-screen bg-black text-white font-bold flex flex-col justify-center items-center px-6">
+        <div className="min-h-screen bg-black text-green-500 font-bold flex flex-col justify-center items-center px-6 ">
             <DropdownMenu>
                 <DropdownMenuTrigger className={"absolute top-0 right-2 size-16 right"}>Menu</DropdownMenuTrigger>
                 <DropdownMenuContent>
