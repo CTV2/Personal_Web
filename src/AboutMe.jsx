@@ -28,7 +28,7 @@ function AboutMe(){
 
             <h1 className={"flex flex-col justify-center items-center mt-10 mb-5 text-5xl text-green-500 "}>About Me: Beyond Tech (kinda)</h1>
             <h1 className={"border-green-500 border-4 rounded flex flex-row justify-left items-center mt-2 ml-15 text-2xl text-center text-white"}>
-            <img className={"h-70 w-55 mr-5"} src={dog} alt="Henry"/>This is my Dog Henry whom I adopted inn august of this past year,he's a husky mix so he's very energetic at time but overtimes hes basically and oversized cat who enjoys long naps.He also almost never barks (unless he sees a squirrel or large truck for some reason?)
+            <img className={"h-70 w-55 mr-5"} src={dog} alt="Henry"/>This is my Dog Henry whom I adopted in august of this past year,he's a husky mix so he's very energetic at time but overtimes hes basically and oversized cat who enjoys long naps.He also almost never barks (unless he sees a squirrel or large truck for some reason?)
             </h1>
             <h1 className={"border-green-500 border-4 rounded flex flex-row justify-left items-center mt-2 ml-15 text-2xl text-center text-white"}>
             <img className={"h-60 w-60 mr-5"} src={books} alt="Nw"/> I try to always be in the middle of reading something, my favorite author is Haruki Murakami and I've read a lot of his works but Norwegian Wood is by far my favorite. A close second favorite Novel is Tomorrow and Tomorrow and Tomorrow by Gabrielle Zevin
