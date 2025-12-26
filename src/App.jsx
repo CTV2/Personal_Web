@@ -20,7 +20,7 @@ function App() {
        <DropdownMenu>
            <DropdownMenuTrigger className={"absolute top-0 right-2 size-16 right"}>Menu</DropdownMenuTrigger>
            <DropdownMenuContent>
-               <DropdownMenuLabel>Options</DropdownMenuLabel>
+               <DropdownMenuLabel className={"underline"}>Options</DropdownMenuLabel>
                <DropdownMenuSeparator />
                <DropdownMenuItem onClick={() => navigate("/")}>Home</DropdownMenuItem>
                <DropdownMenuItem onClick={() => navigate("/about")}>About Me</DropdownMenuItem>
