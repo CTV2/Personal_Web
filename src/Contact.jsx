@@ -7,8 +7,7 @@ import {
 import {useNavigate} from "react-router-dom";
 import { Input } from "@/components/ui/input"
 import {collection, addDoc} from "firebase/firestore";
-import {db} from "./main.jsx"
-
+import { db } from "@/firebase";
 async function submit() {
     let email = document.getElementById("email").value;
     let name = document.getElementById("name").value;
@@ -22,7 +21,6 @@ async function submit() {
         });
         console.log("Document written with ID: ", docRef.id);
         alert("Form Submitted!");
-        location.reload();
     } catch (e) {
         alert("An error occurred.");
         console.error("Error adding document: ", e);
