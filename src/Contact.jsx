@@ -20,6 +20,9 @@ async function submit() {
             Msg: msg
         });
         console.log("Document written with ID: ", docRef.id);
+        document.getElementById("email").value = "";
+        document.getElementById("name").value = "";
+        document.getElementById("msg").value = "";
         alert("Form Submitted!");
     } catch (e) {
         alert("An error occurred.");
