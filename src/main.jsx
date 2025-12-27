@@ -7,10 +7,12 @@ import AboutMe from "./AboutMe.jsx";
 import Projects from "./Projects.jsx"
 import Contact from "./Contact.jsx"
 import Profile from "./Admin.jsx";
+import Log from "./Admin_log.jsx";
 const router = createBrowserRouter([
     {path: '/', element: <App />},
     {path: '/about', element: <AboutMe />},
     {path: '/profile', element: <Profile />},
+    {path: '/Admin_log', element: <Log />},
     {path: '/projects', element: <Projects />},
     {path: '/contact', element: <Contact />},
 ])
