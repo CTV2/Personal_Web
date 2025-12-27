@@ -20,6 +20,7 @@ function AboutMe(){
                     <DropdownMenuLabel className={"underline"}>Options</DropdownMenuLabel>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem onClick={() => navigate("/")}>Home</DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => navigate("/profile")}>Admin</DropdownMenuItem>
                     <DropdownMenuItem onClick={() => navigate("/about")}>About Me</DropdownMenuItem>
                     <DropdownMenuItem onClick={() => navigate("/projects")}>Projects</DropdownMenuItem>
                     <DropdownMenuItem onClick={() => navigate("/contact")}>Contact</DropdownMenuItem>
