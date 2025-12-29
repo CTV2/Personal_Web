@@ -34,7 +34,7 @@ function App() {
        <p className={"text-3xl text-white mt-12 text-center pb-15"}>
           Hi my name is Rodney Brown, I'm a computer science student at gvsu<br/>
            I'm currently looking to use my skills in more practical ways to learn<br/>
-           and expand my experience by building real software.
+           and expand my experience by building useful software.
        </p>
        <h2 className={"flex flex-row  justify-center items-center mt-5 space-between"}>
        <img className={"size-90 pt-2 mr-20"} src={py_logo} alt="Rodney Brown"/>
