@@ -31,15 +31,15 @@ function App() {
        </DropdownMenu>
        <h1 className={"text-5xl sm:text-6xl lg:text-7xl text-center mt-20"}>Rodney Brown</h1>
 
-       <p className={"text-3xl sm:text-xl lg:text-3xl text-white mt-12 text-center max-w-7xl mx-auto"}>
+       <p className={"text-lg sm:text-xl lg:text-3xl text-white mt-12 text-center max-w-7xl mx-auto"}>
           Hi my name is Rodney Brown, I'm a computer science student at gvsu
            I'm currently looking to use my skills in more practical ways to learn
            and expand my experience by building useful software.
        </p>
-       <h2 className={"flex flex-col sm:flex-row justify-center items-center gap-6 mt-5 mb-5"}>
-       <img className={"w-50 sm:w-60 lg:w-75"} src={py_logo} alt="Rodney Brown"/>
-           <img className={"w-50 sm:w-60 lg:w-75"} src={java} alt="Rodney Brown"/>
-           <img className={"w-50 sm:w-60 lg:w-75"} src={git} alt="Rodney Brown"/>
+       <h2 className={"flex flex-col sm:flex-row justify-center items-center gap-6 mt-5"}>
+       <img className={"w-50 sm:w-60 lg:w-75 mb-20"} src={py_logo} alt="Rodney Brown"/>
+           <img className={"w-50 sm:w-60 lg:w-75 mb-20"} src={java} alt="Rodney Brown"/>
+           <img className={"w-50 sm:w-60 lg:w-75 mb-20"} src={git} alt="Rodney Brown"/>
 
 
        </h2>
