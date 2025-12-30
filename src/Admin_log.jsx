@@ -28,7 +28,7 @@ function Log() {
     return (
         <div className="min-h-screen bg-black text-green-500 font-bold flex flex-col justify-center items-center px-6">
             <DropdownMenu>
-                <DropdownMenuTrigger className={"absolute top-0 right-2 size-16 right"}>Menu</DropdownMenuTrigger>
+                <DropdownMenuTrigger className={"absolute top-4 right-4 text-base sm:text-lg"}>Menu</DropdownMenuTrigger>
                 <DropdownMenuContent>
                     <DropdownMenuLabel className={"underline"}>Options</DropdownMenuLabel>
                     <DropdownMenuSeparator />

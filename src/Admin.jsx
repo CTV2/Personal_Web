@@ -33,7 +33,7 @@ function Profile() {
     return (
         <div className="min-h-screen bg-black text-green-500 font-bold flex flex-col justify-center items-center px-6 ">
             <DropdownMenu>
-                <DropdownMenuTrigger className={"absolute top-0 right-2 size-16 right"}>Menu</DropdownMenuTrigger>
+                <DropdownMenuTrigger className={"absolute top-4 right-4 text-base sm:text-lg"}>Menu</DropdownMenuTrigger>
                 <DropdownMenuContent>
                     <DropdownMenuLabel className={"underline"}>Options</DropdownMenuLabel>
                     <DropdownMenuSeparator />
@@ -45,7 +45,7 @@ function Profile() {
                 </DropdownMenuContent>
             </DropdownMenu>
 
-            <h1 className={'pb-6 text-7xl'}>Admin Login</h1>
+            <h1 className={'text-base sm:text-xl lg:text-7xl text-green-500 text-center mb-6 max-w-xl mx-auto'}>Admin Login</h1>
 
             <Input id="email" className={"w-75"} type="email" placeholder="Email" />
             <Input id="password" className={"w-75 m-6"} type="password" placeholder="Password" />
