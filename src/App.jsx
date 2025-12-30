@@ -37,9 +37,9 @@ function App() {
            and expand my experience by building useful software.
        </p>
        <h2 className={"flex flex-col sm:flex-row justify-center items-center gap-8 mt-5"}>
-       <img className={"w-50 sm:w-60 lg:w-75 mb-20"} src={py_logo} alt="Rodney Brown"/>
-           <img className={"w-50 sm:w-60 lg:w-75 mb-20"} src={java} alt="Rodney Brown"/>
-           <img className={"w-50 sm:w-60 lg:w-75 mb-20"} src={git} alt="Rodney Brown"/>
+       <img className={"w-50 sm:w-60 lg:w-75 mb-10"} src={py_logo} alt="Rodney Brown"/>
+           <img className={"w-50 sm:w-60 lg:w-75 mb-10"} src={java} alt="Rodney Brown"/>
+           <img className={"w-50 sm:w-60 lg:w-75 mb-10"} src={git} alt="Rodney Brown"/>
 
 
        </h2>
