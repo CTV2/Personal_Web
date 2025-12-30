@@ -30,11 +30,11 @@ function Projects(){
             <h1 className={"flex flex-col justify-center items-center mt-15 text-5xl text-green-500"}>Projects
 
             </h1>
-            <h1 className={"border-green-500 text-4xl sm:text-4xl lg:text-4xl border-4 rounded flex flex-col sm:flex-row justify-center items-center mb-15 mt-15 text-white text-left"}>
-                <img className={"w-30 sm:w-32 lg:w-75 h-70"} src={go} alt="Go Board"/> Go Game: Created a program that mimics the game of go and used recursion to keep score and keep track of board state to undo moves and asses win conditions.
+            <h1 className={"border-green-500 text-4xl sm:text-4xl lg:text-4xl border-4 rounded flex flex-col sm:flex-row justify-center items-center mb-5 mt-5 text-white text-left"}>
+                <img className={"h-80 w-100 mr-5"} src={go} alt="Go Board"/> Go Game: Created a program that mimics the game of go and used recursion to keep score and keep track of board state to undo moves and asses win conditions.
             </h1>
-            <h1 className={"border-green-500 text-4xl sm:text-4xl lg:text-4xl border-4 rounded flex flex-col sm:flex-row justify-center items-center mb-15 mt-15 text-white text-left"}>
-                <img className={"w-30 sm:w-32 lg:w-75 h-70"} src={plane} alt="Go Board"/> Plane Trip Simulation: Created a program that keeps track of planes gas and required gas to reach a destinations, it also kept track of when planes would need to refuel and receive maintenance
+            <h1 className={"border-green-500 text-4xl sm:text-4xl lg:text-4xl border-4 rounded flex flex-col sm:flex-row justify-center items-center mb-5 mt-5 text-white text-left"}>
+                <img className={"h-80 w-100 mr-5"} src={plane} alt="Go Board"/> Plane Trip Simulation: Created a program that keeps track of planes gas and required gas to reach a destinations, it also kept track of when planes would need to refuel and receive maintenance
             </h1>
         </div>
     )
