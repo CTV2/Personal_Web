@@ -18,7 +18,7 @@ function App() {
    <div className="min-h-screen bg-black text-green-500 font-bold flex flex-col px-6">
 
        <DropdownMenu>
-           <DropdownMenuTrigger className={"absolute top-0 right-2 size-16 right"}>Menu</DropdownMenuTrigger>
+           <DropdownMenuTrigger className={"absolute top-4 right-4 text-base sm:text-lg"}>Menu</DropdownMenuTrigger>
            <DropdownMenuContent>
                <DropdownMenuLabel className={"underline"}>Options</DropdownMenuLabel>
                <DropdownMenuSeparator />
@@ -29,17 +29,17 @@ function App() {
                <DropdownMenuItem onClick={() => navigate("/contact")}>Contact</DropdownMenuItem>
            </DropdownMenuContent>
        </DropdownMenu>
-       <h1 className={"text-7xl flex flex-col  justify-center items-center mt-5"}>Rodney Brown</h1>
+       <h1 className={"text-4xl sm:text-6xl lg:text-7xl text-center mt-5"}>Rodney Brown</h1>
 
-       <p className={"text-3xl text-white mt-12 text-center pb-15"}>
-          Hi my name is Rodney Brown, I'm a computer science student at gvsu<br/>
-           I'm currently looking to use my skills in more practical ways to learn<br/>
+       <p className={"text-base sm:text-xl lg:text-3xl text-white mt-12 text-center max-w-xl mx-auto"}>
+          Hi my name is Rodney Brown, I'm a computer science student at gvsu
+           I'm currently looking to use my skills in more practical ways to learn
            and expand my experience by building useful software.
        </p>
-       <h2 className={"flex flex-row  justify-center items-center mt-5 space-between"}>
-       <img className={"size-90 pt-2 mr-20"} src={py_logo} alt="Rodney Brown"/>
-           <img className={"h-90 w-50 pt-2 mr-20"} src={java} alt="Rodney Brown"/>
-           <img className={"size-90 pt-2"} src={git} alt="Rodney Brown"/>
+       <h2 className={"flex flex-col sm:flex-row justify-center items-center gap-6 mt-5"}>
+       <img className={"w-24 sm:w-32 lg:w-75"} src={py_logo} alt="Rodney Brown"/>
+           <img className={"w-24 sm:w-32 lg:w-75"} src={java} alt="Rodney Brown"/>
+           <img className={"w-24 sm:w-32 lg:w-75"} src={git} alt="Rodney Brown"/>
 
 
        </h2>
