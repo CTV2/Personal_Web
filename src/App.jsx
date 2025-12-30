@@ -29,7 +29,7 @@ function App() {
                <DropdownMenuItem onClick={() => navigate("/contact")}>Contact</DropdownMenuItem>
            </DropdownMenuContent>
        </DropdownMenu>
-       <h1 className={"text-5xl sm:text-6xl lg:text-7xl text-center mt-5"}>Rodney Brown</h1>
+       <h1 className={"text-5xl sm:text-6xl lg:text-7xl text-center mt-20"}>Rodney Brown</h1>
 
        <p className={"text-4xl sm:text-xl lg:text-3xl text-white mt-12 text-center max-w-7xl mx-auto"}>
           Hi my name is Rodney Brown, I'm a computer science student at gvsu
