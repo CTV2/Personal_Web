@@ -27,7 +27,7 @@ function Projects(){
                 </DropdownMenuContent>
             </DropdownMenu>
 
-            <h1 className={"flex flex-col justify-center items-center mt-15 text-5xl text-green-500"}>Projects
+            <h1 className={"flex flex-col justify-center items-center mt-15 text-7xl text-green-500"}>Projects
 
             </h1>
             <h1 className={"border-green-500 text-2xl sm:text-5xl lg:text-4.5xl border-4 rounded flex flex-col sm:flex-row justify-center items-center mb-5 mt-5 text-white text-center"}>
