@@ -45,7 +45,7 @@ function Profile() {
                 </DropdownMenuContent>
             </DropdownMenu>
 
-            <h1 className={'text-base sm:text-xl lg:text-7xl text-green-500 text-center mb-6 max-w-xl mx-auto'}>Admin Login</h1>
+            <h1 className={'text-4xl sm:text-xl lg:text-7xl text-green-500 text-center mb-6 max-w-xl mx-auto'}>Admin Login</h1>
 
             <Input id="email" className={"w-75"} type="email" placeholder="Email" />
             <Input id="password" className={"w-75 m-6"} type="password" placeholder="Password" />

@@ -46,7 +46,7 @@ function Contact() {
                 </DropdownMenuContent>
             </DropdownMenu>
 
-            <h1 className={'text-base sm:text-xl lg:text-7xl text-green-500 text-center mb-6 max-w-xl mx-auto'}>Contact Me</h1>
+            <h1 className={'text-4xl sm:text-xl lg:text-7xl text-green-500 text-center mb-6 max-w-xl mx-auto'}>Contact Me</h1>
 
             <Input id="email" className={"w-75"} type="email" placeholder="Email" />
             <Input id="name" className={"w-75 m-6"} type="Name" placeholder="Name" />
