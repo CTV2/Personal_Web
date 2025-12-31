@@ -31,7 +31,7 @@ function Projects(){
 
             </h1>
             <h1 className={"border-green-500 text-2xl sm:text-5xl lg:text-4.5xl border-4 rounded flex flex-col sm:flex-row justify-center items-center mb-5 mt-5 text-white text-center"}>
-                <img className={"h-80 w-100 mr-5"} src={go} alt="Go Board"/> Go Game: <br/> Created a program that mimics the game of go and used recursion to keep score and keep track of board state to undo moves and asses win conditions.
+                <img className={"h-80 w-100 mr-5"} src={go} alt="Go Board"/> Go Game: <br/> Created a program that mimics the game of go and used recursion to keep score and keep track of board state to undo moves and assess win conditions.
             </h1>
             <h1 className={"border-green-500 text-2xl sm:text-4xl lg:text-5xl border-4 rounded flex flex-col sm:flex-row justify-center items-center mb-5 mt-5 text-white text-center"}>
                 <img className={"h-80 w-100 mr-5"} src={plane} alt="Go Board"/> Plane Trip Simulation: <br/> Created a program that keeps track of planes gas and required gas to reach a destinations, it also kept track of when planes would need to refuel and receive maintenance
