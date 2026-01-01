@@ -27,7 +27,7 @@ function AboutMe(){
                 </DropdownMenuContent>
             </DropdownMenu>
 
-            <h1 className={"text-7xl sm:text-xl lg:text-7xl text-green-500 text-center mb-6  mt-20 max-w-xl mx-auto"}>About Me: Beyond Tech</h1>
+            <h1 className={"text-7xl sm:text-xl lg:text-7xl text-green-500 text-center mb-6  mt-20 max-w-xl mx-auto"}>About Me</h1>
             <h1 className={"border-green-500 text-2xl sm:text-4xl lg:text-4xl border-4 rounded-4xl flex flex-col sm:flex-row justify-center items-center mb-5 mt-4 text-white text-center"}>
             <img className={"w-50 sm:w-60 lg:w-75 lg:h-75"} src={dog} alt="Henry"/>This is my dog Henry, whom I adopted in August of this past year. He’s a husky mix, so he’s very energetic at times, but over time he’s basically an oversized cat who enjoys long naps. He also almost never barks (unless he sees a squirrel or a large truck, for some reason).
             </h1>
